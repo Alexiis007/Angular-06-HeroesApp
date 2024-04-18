@@ -1,0 +1,10 @@
+<h2 mat-dialog-title>Estas seguro de borrar a {{data.superhero}}?</h2>
+<mat-dialog-content>
+  <p>Este proceso no es reversible y todo se borrara para siempre sin vuelta atras :(</p>
+  <mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Volver</button>
+    <span class="spacer"></span>
+    <button mat-button (click)="onClick()" [mat-dialog-close]="data.superhero" cdkFocusInitial>Borrar</button>
+  </mat-dialog-actions>
+</mat-dialog-content>
+

@@ -11,6 +11,7 @@ export class HeroImagePipe implements PipeTransform {
     { 
       return 'assets/no-image.png'
     }
+    if ( hero.alt_image ) return hero.alt_image; // https:///google.com/flash.png
     return `assets/heroes/${hero.id}.jpg`;
   }
 
