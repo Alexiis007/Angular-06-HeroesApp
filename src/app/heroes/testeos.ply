@@ -1,0 +1,4 @@
+testeos:
+  url: http://localhost:3000/heroes?q=b
+  method: GET
+  headers: {}

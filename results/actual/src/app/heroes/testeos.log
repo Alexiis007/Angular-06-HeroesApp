@@ -1,0 +1,35 @@
+Request 'testeos' submitted at 4/17/2024, 16:06:11:038
+Request: {
+  "name": "testeos",
+  "type": "request",
+  "url": "http://localhost:3000/heroes?q=b",
+  "method": "GET",
+  "headers": {},
+  "submitted": "2024-04-17T22:06:11.038Z",
+  "runId": "134a20280"
+}
+Response: {
+  "runId": "134a20280",
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "headers": {
+    "access-control-allow-credentials": "true",
+    "cache-control": "no-cache",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 17 Apr 2024 22:06:11 GMT",
+    "etag": "W/\"7f7-q8VSDE3gJ6xJydVm6lsE32K03rs\"",
+    "expires": "-1",
+    "pragma": "no-cache",
+    "transfer-encoding": "chunked",
+    "vary": "Origin, Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-powered-by": "Express"
+  },
+  "body": "[\n  {\n    \"id\": \"dc-batman\",\n    \"superhero\": \"Batman\",\n    \"publisher\": \"DC Comics\",\n    \"alter_ego\": \"Bruce Wayne\",\n    \"first_appearance\": \"Detective Comics #27\",\n    \"characters\": \"Bruce Wayne\"\n  },\n  {\n    \"id\": \"dc-flash\",\n    \"superhero\": \"Flash\",\n    \"publisher\": \"DC Comics\",\n    \"alter_ego\": \"Jay Garrick\",\n    \"first_appearance\": \"Flash Comics #1\",\n    \"characters\": \"Jay Garrick, Barry Allen, Wally West, Bart Allen\"\n  },\n  {\n    \"id\": \"dc-green\",\n    \"superhero\": \"Green Lantern\",\n    \"publisher\": \"DC Comics\",\n    \"alter_ego\": \"Alan Scott\",\n    \"first_appearance\": \"All-American Comics #16\",\n    \"characters\": \"Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz\"\n  },\n  {\n    \"id\": \"dc-robin\",\n    \"superhero\": \"Robin/Nightwing\",\n    \"publisher\": \"DC Comics\",\n    \"alter_ego\": \"Dick Grayson\",\n    \"first_appearance\": \"Detective Comics #38\",\n    \"characters\": \"Dick Grayson\"\n  },\n  {\n    \"id\": \"dc-blue\",\n    \"superhero\": \"Blue Beetle\",\n    \"publisher\": \"DC Comics\",\n    \"alter_ego\": \"Dan Garret\",\n    \"first_appearance\": \"Mystery Men Comics #1\",\n    \"characters\": \"Dan Garret, Ted Kord, Jaime Reyes\"\n  },\n  {\n    \"id\": \"dc-black\",\n    \"superhero\": \"Black Canary\",\n    \"publisher\": \"DC Comics\",\n    \"alter_ego\": \"Dinah Drake\",\n    \"first_appearance\": \"Flash Comics #86\",\n    \"characters\": \"Dinah Drake, Dinah Lance\"\n  },\n  {\n    \"id\": \"marvel-hulk\",\n    \"superhero\": \"Hulk\",\n    \"publisher\": \"Marvel Comics\",\n    \"alter_ego\": \"Bruce Banner\",\n    \"first_appearance\": \"The Incredible Hulk #1\",\n    \"characters\": \"Bruce Banner\"\n  },\n  {\n    \"id\": \"marvel-wolverine\",\n    \"superhero\": \"Wolverine\",\n    \"publisher\": \"Marvel Comics\",\n    \"alter_ego\": \"James Howlett\",\n    \"first_appearance\": \"The Incredible Hulk #180\",\n    \"characters\": \"James Howlett\"\n  },\n  {\n    \"id\": \"marvel-hawkeye\",\n    \"superhero\": \"Hawkeye\",\n    \"publisher\": \"Marvel Comics\",\n    \"alter_ego\": \"Clinton Francis Barton\",\n    \"first_appearance\": \"Tales of Suspense #57\",\n    \"characters\": \"Clinton Francis Barton\"\n  }\n]",
+  "time": 84
+}
+Request 'testeos' SUBMITTED

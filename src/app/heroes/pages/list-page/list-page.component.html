@@ -1,1 +1,7 @@
-<p>list-page works!</p>
+<h1>Hero List</h1>
+<mat-divider></mat-divider>
+<div class="grid mb-8">
+    <div *ngFor="let item of heros" class="col-12 sm:col-4 md:col-3 xl:col-2">
+        <heroes-card [hero]="item"></heroes-card>
+    </div>
+</div>

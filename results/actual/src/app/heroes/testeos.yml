@@ -1,0 +1,98 @@
+testeos:  # 4/17/2024, 16:06:11:038
+  request:
+    url: http://localhost:3000/heroes?q=b
+    method: GET
+    headers: {}
+  response:  # 84 ms
+    status:
+      code: 200
+      message: OK
+    headers:
+      access-control-allow-credentials: 'true'
+      cache-control: no-cache
+      connection: close
+      content-encoding: gzip
+      content-type: application/json; charset=utf-8
+      date: Wed, 17 Apr 2024 22:06:11 GMT
+      etag: W/"7f7-q8VSDE3gJ6xJydVm6lsE32K03rs"
+      expires: '-1'
+      pragma: no-cache
+      transfer-encoding: chunked
+      vary: Origin, Accept-Encoding
+      x-content-type-options: nosniff
+      x-powered-by: Express
+    body: |-
+      [
+        {
+          "alter_ego": "Bruce Wayne",
+          "characters": "Bruce Wayne",
+          "first_appearance": "Detective Comics #27",
+          "id": "dc-batman",
+          "publisher": "DC Comics",
+          "superhero": "Batman"
+        },
+        {
+          "alter_ego": "Jay Garrick",
+          "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+          "first_appearance": "Flash Comics #1",
+          "id": "dc-flash",
+          "publisher": "DC Comics",
+          "superhero": "Flash"
+        },
+        {
+          "alter_ego": "Alan Scott",
+          "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
+          "first_appearance": "All-American Comics #16",
+          "id": "dc-green",
+          "publisher": "DC Comics",
+          "superhero": "Green Lantern"
+        },
+        {
+          "alter_ego": "Dick Grayson",
+          "characters": "Dick Grayson",
+          "first_appearance": "Detective Comics #38",
+          "id": "dc-robin",
+          "publisher": "DC Comics",
+          "superhero": "Robin/Nightwing"
+        },
+        {
+          "alter_ego": "Dan Garret",
+          "characters": "Dan Garret, Ted Kord, Jaime Reyes",
+          "first_appearance": "Mystery Men Comics #1",
+          "id": "dc-blue",
+          "publisher": "DC Comics",
+          "superhero": "Blue Beetle"
+        },
+        {
+          "alter_ego": "Dinah Drake",
+          "characters": "Dinah Drake, Dinah Lance",
+          "first_appearance": "Flash Comics #86",
+          "id": "dc-black",
+          "publisher": "DC Comics",
+          "superhero": "Black Canary"
+        },
+        {
+          "alter_ego": "Bruce Banner",
+          "characters": "Bruce Banner",
+          "first_appearance": "The Incredible Hulk #1",
+          "id": "marvel-hulk",
+          "publisher": "Marvel Comics",
+          "superhero": "Hulk"
+        },
+        {
+          "alter_ego": "James Howlett",
+          "characters": "James Howlett",
+          "first_appearance": "The Incredible Hulk #180",
+          "id": "marvel-wolverine",
+          "publisher": "Marvel Comics",
+          "superhero": "Wolverine"
+        },
+        {
+          "alter_ego": "Clinton Francis Barton",
+          "characters": "Clinton Francis Barton",
+          "first_appearance": "Tales of Suspense #57",
+          "id": "marvel-hawkeye",
+          "publisher": "Marvel Comics",
+          "superhero": "Hawkeye"
+        }
+      ]
