@@ -1,10 +1,10 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "usuario": "John Doe",
-        "email": "john.due@gmail.com"
-      }
+  "users": [
+    {
+      "id": 1,
+      "user": "John Doe",
+      "email": "john.due@gmail.com"
+    }
     ],
     "heroes": [
       {

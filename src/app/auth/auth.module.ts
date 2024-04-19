@@ -6,6 +6,7 @@ import { LayoutPagesComponent } from './pages/layout-pages/layout-pages.componen
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { MaterialModule } from '../material/material.module';
+import { HeroesModule } from '../heroes/heroes.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MaterialModule } from '../material/material.module';
   imports: [
     CommonModule,
     AuthRoutingModule,
-    MaterialModule
+    MaterialModule,
+    HeroesModule
   ]
 })
 export class AuthModule { }
